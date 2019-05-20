@@ -1,0 +1,26 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon"
+        android:shortcutId="Order"
+        android:shortcutShortLabel="@string/shortcut_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="lingamworks.hoteldasboard.MainActivity"
+            android:targetPackage="lingamworks.hoteldasboard">
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon"
+        android:shortcutId="Pendingorders"
+        android:shortcutShortLabel="@string/Billing">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="lingamworks.hoteldasboard.Biller"
+            android:targetPackage="lingamworks.hoteldasboard">
+        </intent>
+    </shortcut>
+</shortcuts>
