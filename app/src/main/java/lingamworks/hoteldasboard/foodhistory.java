@@ -71,6 +71,7 @@ public class foodhistory extends AppCompatActivity {
         host=getString(R.string.localhost);
         setTitle("Orders History");
         fooditems=new ArrayList<>();
+        fooditems=new ArrayList<>();
         pb=findViewById(R.id.imageViewhis);
         Glide.with(this)
                 .load(R.drawable.pizza2)

@@ -143,6 +143,7 @@ public class cListad extends RecyclerView.Adapter<cListad.ViewHolder> {
                 public void onClick(DialogInterface dialog, int which) {
                 }
             });
+
             alertDialog.show();
         }
     }

@@ -69,7 +69,6 @@ public class OrderMenu extends AppCompatActivity {
                                 categoriesd hero = new categoriesd(person.getString("category"));
                                 heroList.add(hero);
                             }
-
                             //creating custom adapter object
                             adapter = new neCListad(heroList, getApplicationContext(),mRecyclerView);
                             //adding the adapter to listview
